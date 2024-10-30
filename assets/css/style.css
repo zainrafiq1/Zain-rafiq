@@ -36,7 +36,7 @@ Version      : 1.0
 :root {
     --main-color: #9f9f9f;
     --heading-color: #fff;
-    --primary-color: #eb5d3a;
+    --primary-color: #00B5CD;
     --lighter-color: #ccc;
     --subtitle-color: #ccc;
     --black-color: #000;
@@ -54,6 +54,7 @@ Version      : 1.0
     box-shadow: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body {
     color: var(--main-color);
     background: var(--body-background);
@@ -61,6 +62,7 @@ body {
     line-height: 30px;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+    
     overflow-x: hidden;
 
 }
@@ -423,7 +425,7 @@ html {
     font-weight: 500;
     line-height: 20px;
     overflow: visible;
-    border-radius: 15px;
+    border-radius: 4px;
     padding: 12px 24px;
     text-align: center;
     text-transform: none;
