@@ -1260,6 +1260,7 @@ html {
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
     background-color: #121214;
+    /* margin-top: 110px; */
 }
 
 .about-content-part {}
@@ -1339,7 +1340,7 @@ html {
 .about-social ul li a {
     font-size: 20px;
     border: 1px solid rgb(255 255 255 / 5%);
-    padding: 10px 12px;
+    padding: 5px 5px;
     border-radius: 10px;
 }
 
