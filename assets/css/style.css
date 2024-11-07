@@ -54,7 +54,7 @@ Version      : 1.0
     box-shadow: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); */
 body {
     color: var(--main-color);
     background: var(--body-background);
@@ -96,11 +96,25 @@ h6,
 h1,
 .h1 {
     font-size: 58px;
+    
 }
 
+
+.p1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 10px;
+    
+}
 h2,
 .h2 {
     font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 h3,
@@ -926,7 +940,7 @@ html {
 }
 
 .main-header .logo img {
-    width: 120px;
+    width: 60%;
 }
 
 .main-header .nice-select .current {
@@ -968,10 +982,8 @@ html {
 }
 
 .main-menu .mobile-logo img {
-    width: 75px;
+    width: 60%;
 }
-
-
 
 .main-menu .navbar-collapse {
     padding: 0px;
@@ -1289,9 +1301,12 @@ html {
 
 .about-content-part h2 {
     font-size: 40px;
-    line-height: 50px;
+    line-height: 45px;
     margin-bottom: 20px;
     font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    text-transform: none;
+
 }
 
 
